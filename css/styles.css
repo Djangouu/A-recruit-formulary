@@ -1,0 +1,93 @@
+/******Body******/
+
+body {
+  background-color: #e3fdfd;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+  width: auto;
+  height: auto;
+  padding-left: 30%;
+  font-size: 20px;
+}
+
+/******The header******/
+
+header {
+  text-align: center;
+}
+
+#description {
+  font-size: 17px;
+}
+
+/******Middle******/
+
+.container {
+  max-width: 500px;
+  background-color: #cbf1f5;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 0px 7px 0px rgba(0, 0, 0, 0.2);
+}
+
+#description {
+  margin-top: 0px;
+}
+
+#title {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+#name,
+#email,
+#number,
+#dropdown {
+  width: 98%;
+  height: 30px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid;
+  margin-top: 5px;
+}
+
+#dropdown {
+  width: 504px;
+  height: 34px;
+  margin-bottom: -2px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+#survey-form {
+  font-size: 18px;
+}
+
+/******Text area******/
+
+#textarea {
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+/******Button******/
+
+#submit {
+  margin-top: 10px;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px #72c8ce solid;
+  background-color: #9cd8dd;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#submit:hover,
+#submit:active {
+  background-color: #71c9ce;
+}

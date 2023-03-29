@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Form</title>
+</head>
+
+    <body>
+        <div class="container">
+            <header>
+                <h1 id="title">Recruitment form</h1>
+                <p id="description">Join to the best programming team in the world</p>
+            </header>
+            <form action="" id="survey-form">
+                <div class="forms-g">
+                    <label for="name" id="name-label">Name</label><br>
+                    <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="forms-g">
+                    <label for="email" id="email-label">Email</label><br>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="forms-g">
+                    <label for="age" id="number-label">Age</label><br>
+                    <input type="number" name="age" id="number" min="18" max="70" placeholder="Age" required>
+                </div>
+                <div class="Seniority">
+                    <label for="dropdown">Seniority</label><br>
+                    <select name="Seniority" id="dropdown">
+                        <option disabled selected> Select</option>
+                        <option value="Junior">Junior</option>
+                        <option value="Semi-Senior">Semi-Senior</option>
+                        <option value="Senior">Senior</option>
+                    </select>
+                </div>
+
+                <div class="area">
+                    <p>What kind of developer are you?</p>
+                    <input type="radio" name="area" id="mobile" value="area">
+                    <label for="mobile">Mobile Developer</label>
+                </div>
+                <div class="area">
+                    <input type="radio" name="area" id="front" value="front">
+                    <label for="front">Front End Developer</label>
+                </div>
+                <div class="area">
+                    <input type="radio" name="area" id="back" value="back">
+                    <label for="back">Back End Developer</label>
+                </div>
+                <div class="area">
+                    <input type="radio" name="area" id="full" value="full">
+                    <label for="full">Full Stack Developer</label>
+                </div>
+
+                <table>
+                    <p>What languages ​​do you work with?</p>
+                    <div class="langs">
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="langs" id="JS" value="JS">
+                                <label for="JS">JavaScript</label>
+                            </td>
+
+                            <td>
+                                <input type="checkbox" name="langs" id="a" value="a">
+                                <label for="a">Angular</label>
+                            </td>
+
+                            <td>
+                                <input type="checkbox" name="langs" id="r" value="r">
+                                <label for="r">React</label>
+                            </td>
+                        </tr>
+                    </div>
+
+                    <div class="langs">
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="langs" id="Java" value="Java">
+                                <label for="Java">Java</label>
+                            </td>
+
+                            <td>
+                                <input type="checkbox" name="langs" id="Python" value="Python">
+                                <label for="Python">Python</label>
+                            </td>
+
+                            <td>
+                                <input type="checkbox" name="langs" id="PHP" value="PHP">
+                                <label for="PHP">PHP</label>
+                            </td>
+                        </tr>
+                    </div>
+
+                    <div class="langs">
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="langs" id="objetivec" value="objetivec">
+                                <label for="objetivec">Objetive-C</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="langs" id="swift" value="swift">
+                                <label for="swift">Swift</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="langs" id="kotlin" value="kotlin">
+                                <label for="kotlin">Kotlin</label>
+                            </td>
+                        </tr>
+                    </div>
+                </table>
+
+                <div class="textarea">
+                    <p for="textarea">Tell us more about yourself and your last works</p>
+                    <textarea name="textarea" id="textarea" cols="55" rows="4" placeholder="Write here..."></textarea>
+                </div>
+
+                <div class="send">
+                    <input type="submit" value="Submit" id="submit">
+                </div>
+            </form>
+        </div>
+    </body>
+
+
+</html>
